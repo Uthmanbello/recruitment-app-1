@@ -82,8 +82,8 @@ export function Homepage() {
         </div>
 
         <div>
-          <ul>
-            <li className='row'>
+          <ul className='details-container'>
+            <li className='row candidate-details'>
               <button type='radio' className='check'></button>
               <img src={as} alt='initials'></img>
               <div className='details'>
