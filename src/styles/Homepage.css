@@ -158,12 +158,41 @@
   border-bottom: none;
 }
 
+.details-heading {
+  align-items: center;
+  gap: 2vw;
+}
+
+.candidates-num {
+  font-size: 0.8rem;
+  font-weight: bolder;
+}
+
+.q-d-info {
+  align-items: center;
+  margin-left: 8vw;
+  gap: 1.5vw;
+}
+
+.line {
+  height: 14px;
+  border: 1px solid #F3F3F4;
+}
+
+.value {
+  background-color: #F3F3F4;
+  padding: 4px;
+  font-size: 0.5rem;
+  border-radius: 10px;
+}
+
 .details-container {
   background-color: #FFFFFF;
-  border-radius: 10px;
+  border-radius: 14px;
   padding: 16px;
   margin-left: 2vw;
   width: 62vw;
+  margin-top: -1px;
 }
 
 .details-container li {

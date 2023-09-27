@@ -83,8 +83,20 @@ export function Homepage() {
 
         <div>
           <ul className='details-container'>
+            <li className='row details-heading'>
+              <button type='checkbox' className='check'></button>
+              <p className='blue candidates-num'>247 Candidates</p>
+              <div className='row q-d-info'>
+                <p className='blue medium-text'>Qualified</p>
+                <span className='line'></span>
+                <p className='medium-text align-center'>Task &nbsp;<span className='value'>25</span></p>
+                <span className='line'></span>
+                <p className='medium-text'>Disqualified &nbsp;<span className='value'>78</span></p>
+              </div>
+            </li>
+
             <li className='row candidate-details'>
-              <button type='radio' className='check'></button>
+              <button type='checkbox' className='check'></button>
               <img src={as} alt='initials'></img>
               <div className='details'>
                 <p className='name'>Aaliyah Sanderson</p>
