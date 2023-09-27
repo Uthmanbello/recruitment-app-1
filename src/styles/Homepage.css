@@ -5,3 +5,16 @@
 .heading {
   font-weight: bolder;
 }
+
+.heading-below {
+  margin-top: -5px;
+  text-align: left;
+}
+
+.dropbtn {
+  background-color: #FFFFFF;
+  border: none;
+  width: 20vw;
+  border-radius: 20px;
+  padding: 5px 15px;
+}
