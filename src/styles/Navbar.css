@@ -17,3 +17,7 @@
   color: #0B0B0B;
   cursor: pointer;
 }
+
+.navbar ul li:hover {
+  opacity: 0.6;
+}
