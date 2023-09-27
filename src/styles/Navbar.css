@@ -21,3 +21,8 @@
 .navbar ul li:hover {
   opacity: 0.6;
 }
+
+.profile-pic {
+  width: 40px;
+  border-radius: 50%;
+}

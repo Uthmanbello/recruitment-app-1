@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles/Navbar.css'
-import homeIcon from './images/home-icon.svg'
+import profilePic from './images/profile-pic.png'
+import homeIcon from './images/home-icon.svg';
 import peopleIcon from './images/people-icon.svg';
 import taskIcon from './images/task-icon.svg';
 import shareIcon from './images/share-icon.svg';
@@ -13,6 +14,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <ul>
+        <li><img src={profilePic} alt='profile-pic.png' className='profile-pic'></img></li>
         <li><img src={homeIcon} alt='home icon'></img></li>
         <li><img src={peopleIcon} alt='people icon'></img></li>
         <li><img src={taskIcon} alt='task icon'></img></li>
