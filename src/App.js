@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
-import Homepage from './Homepage';
+import Homepage from './Homepage'
 import './styles/App.css'
 
 function App() {
