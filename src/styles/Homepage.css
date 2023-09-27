@@ -67,7 +67,7 @@
   background-color: #EDF2FF;
 }
 
-.dropdown-content a:nth-last-child() {
+.dropdown-content a:last-child {
   border-bottom: none;
 }
 
@@ -154,7 +154,7 @@
   cursor: pointer;
 }
 
-.search ul li:nth-last-child() {
+.search ul li:last-child {
   border-bottom: none;
 }
 
@@ -198,6 +198,10 @@
 .details-container li {
   border-bottom: 1px solid #EEEEEE;
   padding-bottom: 20px;
+}
+
+.details-container li:last-child {
+  border-bottom: none;
 }
 
 .details {
