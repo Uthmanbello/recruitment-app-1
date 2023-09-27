@@ -23,6 +23,15 @@ const dropdownItems = [
   { label: 'Withdrawn', number: 25 },
 ];
 
+const detailsItems = [
+  {candidate: 'Aaliyah Sanderson', city: 'Riyadh, Saudi Arabia', school: 'Bachelor - Cambridge University'},
+  {candidate: 'John Doe', city: 'Boston, USA', school: 'Bachelor - MIT'},
+  {candidate: 'Thomas Matt', city: 'Edinburgh, UK', school: 'Bachelor - Havard University'},
+  {candidate: 'Kamilia Smith', city: 'London, UK', school: 'Bachelor - Boston University'},
+  {candidate: 'Roy Jade', city: 'Cambridge, UK', school: 'Bachelor - Yale'},
+  {candidate: 'Ahmed Salman', city: 'New York, USA', school: 'Bachelor - Cambridge University'},
+]
+
 export function Homepage() {
 
   const [selectedOption, setSelectedOption] = useState(null);
