@@ -18,6 +18,10 @@
   cursor: pointer;
 }
 
+.navbar ul li img{
+  width: 35px;
+}
+
 .navbar ul li:hover {
   opacity: 0.6;
 }
