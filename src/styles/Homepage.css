@@ -1,9 +1,17 @@
 .homepage {
   margin-left: 7vw;
+  padding-top: 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .heading {
   font-weight: bolder;
+}
+
+.heading:hover {
+  cursor: pointer;
 }
 
 .heading-below {
@@ -17,13 +25,13 @@
   width: 18vw;
   border-radius: 20px;
   padding: 5px 15px;
+  margin-top: -10px;
 }
 
 .heading-icons {
-  /* width: 10vw; */
   display: flex;
   justify-content: left;
-  /* gap: -4vw; */
+  margin-right: -10vw;
 }
 
 .heading-icons img{
@@ -31,5 +39,27 @@
 }
 
 .heading-icons img:hover{
+  opacity: 0.6;
+}
+
+.videobtn {
+  align-items: center;
+  background-color: #1D5ECD;
+  border: none;
+  width: 18vw;
+  height: 40px;
+  border-radius: 10px;
+  padding: 5px 15px;
+  color: #FFFFFF;
+  margin-right: 4vw;
+  margin-top: -10px;
+}
+
+.videobtn img{
+  border-left: 1px solid #F9FAFF;
+  margin-right: -5px;
+}
+
+.videobtn:hover {
   opacity: 0.6;
 }
