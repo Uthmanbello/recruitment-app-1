@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './styles/Homepage.css';
 import tag from './images/tag.svg';
 import disqualified from './images/disqualified.svg';
@@ -11,7 +11,25 @@ import fileIcon2 from './images/file-icon2.svg';
 import searchIcon from './images/search-icon.svg';
 import as from './images/as.svg';
 
+const dropdownItems = [
+  { label: 'Applied', number: 1745 },
+  { label: 'Shortlisted', number: 453 },
+  { label: 'Technical Interview', number: 123 },
+  { label: 'Opportunity Browsing', number: 243 },
+  { label: 'Video Interview I', number: 25 },
+  { label: 'Video Interview II', number: 25 },
+  { label: 'Video Interview III', number: 25 },
+  { label: 'Offer', number: 25 },
+  { label: 'Withdrawn', number: 25 },
+];
+
 export function Homepage() {
+
+  const [selectedOption, setSelectedOption] = useState(null);
+  const handleOptionClick = (item) => {
+    setSelectedOption(item.label);
+  };
+
   return (
     <>
       <div className="homepage row align-center">
@@ -21,20 +39,18 @@ export function Homepage() {
         </div>
 
         <div className="dropdown">
-          <button className="dropbtn blue space-between">Opportunity Browsing <img src={blueArrowdown} alt='arrow down'></img></button>
+          <button className="dropbtn blue space-between">
+            {selectedOption || 'Applied'}{' '} <img src={blueArrowdown} alt='arrow down'></img>
+          </button>
           <div className="dropdown-content">
-            <a href="#" className='row space-between'>
-              <div className='row space-between'>
-                <p>Applied</p>
-                <p className='category-number'>1745</p>
-              </div>
-            </a>
-            <a href="#" className='row space-between'>
-              <div className='row space-between'>
-                <p>Shortlisted</p>
-                <p className='category-number'>453</p>
-              </div>
-            </a>
+            {dropdownItems.map((item, index) => (
+              <a href="#" className='row space-between' key={index} onClick={() => handleOptionClick(item)}>
+                <div className='row space-between'>
+                  <p>{item.label}</p>
+                  <p className='category-number'>{item.number}</p>
+                </div>
+              </a>
+            ))}
           </div>
         </div>
 

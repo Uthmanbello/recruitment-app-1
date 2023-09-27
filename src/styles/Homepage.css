@@ -43,7 +43,7 @@
   position: absolute;
   background-color: #FFFFFF;
   width: 18vw;
-  margin-top: 2px;
+  border-top: 2px solid #EDF2FF;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
@@ -55,11 +55,11 @@
 }
 
 .dropdown-content a {
-  color: black;
   padding: 5px 18px;
   text-decoration: none;
   display: block;
   border-bottom: 2px solid #F9FAFF;
+  font-size: 0.8rem
 }
 
 .dropdown-content a:hover {
