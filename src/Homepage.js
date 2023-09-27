@@ -9,6 +9,7 @@ import blueArrowdown from './images/blue-arrowdown.svg';
 import whiteArrowdown from './images/white-arrowdown.svg';
 import fileIcon2 from './images/file-icon2.svg';
 import searchIcon from './images/search-icon.svg';
+import as from './images/as.svg';
 
 export function Homepage() {
   return (
@@ -48,9 +49,10 @@ export function Homepage() {
         <button className="videobtn space-between">Move To Video Interview I<img src={whiteArrowdown} alt='arrow down'></img></button> 
       </div>
 
-      <div>
+      <div className='row'>
         <div className='search'>
-        <img src={searchIcon} alt='search-icon'></img><input type='text' placeholder='Search by name, edu, exp, or #tag' className='search-input'></input>
+        {/* <img src={searchIcon} alt='search-icon'></img> */}
+        <input type='text' placeholder='Search by name, edu, exp, or #tag' className='search-input'></input>
           <ul>
             <li className='row space-between'>
               <p>Filters</p>
@@ -59,6 +61,42 @@ export function Homepage() {
             <li className='row space-between'>
               <p><img src={fileIcon2} alt='file icon'></img>&nbsp;&nbsp;Personal Information</p>
               <img src={blueArrowdown} alt='arrow down'></img>
+            </li>
+            <li className='row space-between'>
+              <p><img src={fileIcon2} alt='file icon'></img>&nbsp;&nbsp;Education</p>
+              <img src={blueArrowdown} alt='arrow down'></img>
+            </li>
+            <li className='row space-between'>
+              <p><img src={fileIcon2} alt='file icon'></img>&nbsp;&nbsp;Work Experience</p>
+              <img src={blueArrowdown} alt='arrow down'></img>
+            </li>
+            <li className='row space-between'>
+              <p><img src={fileIcon2} alt='file icon'></img>&nbsp;&nbsp;Activity Filter</p>
+              <img src={blueArrowdown} alt='arrow down'></img>
+            </li>
+            <li className='row space-between'>
+              <p><img src={fileIcon2} alt='file icon'></img>&nbsp;&nbsp;Advanced Filter</p>
+              <img src={blueArrowdown} alt='arrow down'></img>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <ul>
+            <li className='row'>
+              <button type='radio' className='check'></button>
+              <img src={as} alt='initials'></img>
+              <div className='details'>
+                <p className='name'>Aaliyah Sanderson</p>
+                <p className='city'>Riyadh, Saudi Arabia</p>
+                <p className='qualification'>Bachelor - Cambridge University (2023 - 2023)</p>
+                <p className='top-candidate'>#top_candidate&nbsp;&nbsp;&nbsp;#top_candidate</p>
+                <div className='classification row'>
+                  <div>New York</div>
+                  <div>Marketing</div>
+                  <div>London</div>
+                </div>
+              </div>
             </li>
           </ul>
         </div>
