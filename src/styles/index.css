@@ -34,3 +34,11 @@ align-center {
   display: flex;
   align-items: center;
 }
+
+.blue  {
+  color: #1D4ED8;
+}
+
+.medium-text {
+  font-size: 0.8rem;
+}
