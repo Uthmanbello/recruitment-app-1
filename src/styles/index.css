@@ -1,9 +1,36 @@
+* {
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
 body {
   margin: 0;
   background-color: #F9FAFF;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* UTILITY */
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+align-center {
+  display: flex;
+  align-items: center;
 }
