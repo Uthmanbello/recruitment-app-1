@@ -18,12 +18,20 @@ export function Homepage() {
 
       <div className="dropdown">
         <button className="dropbtn blue space-between">Opportunity Browsing <img src={blueArrowdown} alt='arrow down'></img></button>
-        {/* <div className="dropdown-content">
-          <a href="#">
-            <p>Applied</p>
-            <p>1745</p>
+        <div className="dropdown-content">
+          <a href="#" className='row space-between'>
+            <div className='row space-between'>
+              <p>Applied</p>
+              <p className='category-number'>1745</p>
+            </div>
           </a>
-        </div> */}
+          <a href="#" className='row space-between'>
+            <div className='row space-between'>
+              <p>Shortlisted</p>
+              <p className='category-number'>453</p>
+            </div>
+          </a>
+        </div>
       </div>
 
       <div className='heading-icons'>
