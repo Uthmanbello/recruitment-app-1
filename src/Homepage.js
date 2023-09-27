@@ -25,7 +25,7 @@ export function Homepage() {
         </div>
       </div>
 
-      <div>
+      <div className='heading-icons'>
         <img src={tag} alt='tag icon'></img>
         <img src={disqualified} alt='disqualified icon'></img>
         <img src={qualified} alt='qualified icon'></img>

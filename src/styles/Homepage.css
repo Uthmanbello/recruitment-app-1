@@ -14,7 +14,22 @@
 .dropbtn {
   background-color: #FFFFFF;
   border: none;
-  width: 20vw;
+  width: 18vw;
   border-radius: 20px;
   padding: 5px 15px;
+}
+
+.heading-icons {
+  /* width: 10vw; */
+  display: flex;
+  justify-content: left;
+  /* gap: -4vw; */
+}
+
+.heading-icons img{
+  margin-left: -42px;
+}
+
+.heading-icons img:hover{
+  opacity: 0.6;
 }
