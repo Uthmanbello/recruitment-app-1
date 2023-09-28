@@ -120,21 +120,23 @@ export function Homepage() {
               </div>
             </li>
 
-            <li className='row candidate-details'>
-              <button type='checkbox' className='check'></button>
-              <img src={as} alt='initials'></img>
-              <div className='details'>
-                <p className='name'>Aaliyah Sanderson</p>
-                <p className='city'>Riyadh, Saudi Arabia</p>
-                <p className='qualification'>Bachelor - Cambridge University (2023 - 2023)</p>
-                <p className='top-candidate'>#top_candidate&nbsp;&nbsp;&nbsp;#top_candidate</p>
-                <div className='classification row'>
-                  <div>New York</div>
-                  <div>Marketing</div>
-                  <div>London</div>
+            {detailsItems.map((item, index) => (
+              <li key={index} className='row candidate-details'>
+                <button type='checkbox' className='check'></button>
+                <img src={as} alt='initials'></img>
+                <div className='details'>
+                  <p className='name'>{item.candidate}</p>
+                  <p className='city'>{item.city}</p>
+                  <p className='qualification'>{item.school} (2023 - 2023)</p>
+                  <p className='top-candidate'>#top_candidate&nbsp;&nbsp;&nbsp;#top_candidate</p>
+                  <div className='classification row'>
+                    <div>New York</div>
+                    <div>Marketing</div>
+                    <div>London</div>
+                  </div>
                 </div>
-              </div>
-            </li>
+              </li>
+            ))}
           </ul>
         </div>
       </div>
