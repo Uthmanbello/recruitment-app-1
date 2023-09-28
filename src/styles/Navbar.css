@@ -3,8 +3,8 @@
   top: 0;
   left: 0;
   height: 100%;
-  background-color: #FFFFFF;
-  padding: 0px 10px;
+  background-color: #fff;
+  padding: 0 10px;
 }
 
 .navbar ul {
@@ -14,16 +14,15 @@
 
 .navbar ul li {
   margin: 10px 0;
-  color: #0B0B0B;
+  color: #0b0b0b;
   cursor: pointer;
 }
-
 
 .navbar ul li:nth-last-child(2) {
   margin-top: 40px;
 }
 
-.navbar ul li img{
+.navbar ul li img {
   width: 35px;
 }
 
