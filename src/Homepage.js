@@ -10,6 +10,7 @@ import whiteArrowdown from './images/white-arrowdown.svg';
 import fileIcon2 from './images/file-icon2.svg';
 import searchIcon from './images/search-icon.svg';
 import as from './images/as.svg';
+import warningIcon from './images/warning-icon.svg';
 
 const dropdownItems = [
   { label: 'Applied', number: 1745 },
@@ -76,8 +77,11 @@ export function Homepage() {
 
       <div className='row'>
         <div className='search'>
-        {/* <img src={searchIcon} alt='search-icon'></img> */}
-        <input type='text' placeholder='Search by name, edu, exp, or #tag' className='search-input'></input>
+          <div className='row search-div'>
+            <img src={searchIcon} alt='search icon'></img>
+            <input type='text' placeholder='Search by name, edu, exp, or #tag' className='search-input'></input>
+            <img src={warningIcon} alt='warning icon'></img>
+          </div>
           <ul>
             <li className='row space-between'>
               <p>Filters</p>
