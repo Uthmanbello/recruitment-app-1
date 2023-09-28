@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  color: #0b0b0b;
+  font-family: 'poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #f9faff;
+}
+
+/* UTILITY */
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+.blue {
+  color: #1d4ed8;
+}
+
+.medium-text {
+  font-size: 0.8rem;
+}
