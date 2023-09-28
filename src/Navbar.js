@@ -9,6 +9,8 @@ import fileIcon from './images/file-icon.svg';
 import recordIcon from './images/record-icon.svg';
 import heartIcon from './images/heart-icon.svg';
 import arrowleftIcon from './images/arrowleft-icon.svg';
+import settingsIcon from './images/settings-icon.svg';
+import as from './images/as.svg';
 
 function Navbar() {
   return (
@@ -23,6 +25,8 @@ function Navbar() {
         <li><img src={recordIcon} alt='record icon'></img></li>
         <li><img src={heartIcon} alt='heart icon'></img></li>
         <li><img src={arrowleftIcon} alt='arrow left icon'></img></li>
+        <li><img src={settingsIcon} alt='settings icon'></img></li>
+        <li><img src={as} alt='initials icon'></img></li>
       </ul>
     </div>
   );
