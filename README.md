@@ -101,9 +101,9 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```
-   run: git clone https://github.com/Uthmanbello/recruitment-app-1
-   run: cd ecruitment-app-1
-   run: code . (if you are using VS Code)
+   git clone https://github.com/Uthmanbello/recruitment-app-1
+   cd recruitment-app-1
+   code . (if you are using VS Code)
 
 ```
 
@@ -114,7 +114,6 @@ Install this project with:
 
 ```
    npm install
-   
 ```
 --->
 
