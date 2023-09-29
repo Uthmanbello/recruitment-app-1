@@ -67,6 +67,11 @@
   background-color: #edf2ff;
 }
 
+.dropdown-content a:hover div,
+.dropdown-content a:hover p {
+  font-weight: bold;
+}
+
 .dropdown-content a:last-child {
   border-bottom: none;
 }
