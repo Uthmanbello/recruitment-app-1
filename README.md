@@ -78,7 +78,7 @@
 - **[Professional README file]** 
 
 ## 💻 Live Demo <a name="live-demo"></a>
-[Here](https://) is the link to the live demo
+[Here](https://applications-manager.onrender.com/) is the link to the live demo
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
