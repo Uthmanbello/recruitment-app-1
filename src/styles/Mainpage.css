@@ -63,17 +63,20 @@
 }
 
 .dropdown-content a:hover {
-  color: #1d4ed8;
   background-color: #edf2ff;
+}
+
+.classification div {
+  background-color: #f3fafc;
+  color: #037092;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 0.6rem;
 }
 
 .dropdown-content a:hover div,
 .dropdown-content a:hover p {
-  font-weight: bold;
-}
-
-.dropdown-content a:last-child {
-  border-bottom: none;
+  color: #1d4ed8;
 }
 
 .category-number {
@@ -87,6 +90,14 @@
 
 .category-number:hover {
   background-color: #d1ddff;
+}
+
+.dropdown-content a:hover .category-number {
+  background-color: #d1ddff;
+}
+
+.dropdown-content a:last-child {
+  border-bottom: none;
 }
 
 .heading-icons {
@@ -242,14 +253,6 @@
 
 .classification {
   gap: 10px;
-}
-
-.classification div {
-  background-color: #f3fafc;
-  color: #037092;
-  padding: 5px;
-  border-radius: 5px;
-  font-size: 0.6rem;
 }
 
 .candidate-details {

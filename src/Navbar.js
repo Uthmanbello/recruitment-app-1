@@ -1,6 +1,6 @@
 import React from 'react';
-import './styles/Navbar.css'
-import profilePic from './images/profile-pic.png'
+import './styles/Navbar.css';
+import profilePic from './images/profile-pic.png';
 import homeIcon from './images/home-icon.svg';
 import peopleIcon from './images/people-icon.svg';
 import taskIcon from './images/task-icon.svg';
@@ -16,17 +16,17 @@ function Navbar() {
   return (
     <div className="navbar">
       <ul>
-        <li><img src={profilePic} alt='profile-pic.png' className='profile-pic'></img></li>
-        <li><img src={homeIcon} alt='home icon'></img></li>
-        <li><img src={peopleIcon} alt='people icon'></img></li>
-        <li><img src={taskIcon} alt='task icon'></img></li>
-        <li><img src={shareIcon} alt='share icon'></img></li>
-        <li><img src={fileIcon} alt='file icon'></img></li>
-        <li><img src={recordIcon} alt='record icon'></img></li>
-        <li><img src={heartIcon} alt='heart icon'></img></li>
-        <li><img src={arrowleftIcon} alt='arrow left icon'></img></li>
-        <li><img src={settingsIcon} alt='settings icon'></img></li>
-        <li><img src={as} alt='initials icon'></img></li>
+        <li><img src={profilePic} alt="profile-pic.png" className="profile-pic" /></li>
+        <li><img src={homeIcon} alt="home icon" /></li>
+        <li><img src={peopleIcon} alt="people icon" /></li>
+        <li><img src={taskIcon} alt="task icon" /></li>
+        <li><img src={shareIcon} alt="share icon" /></li>
+        <li><img src={fileIcon} alt="file icon" /></li>
+        <li><img src={recordIcon} alt="record icon" /></li>
+        <li><img src={heartIcon} alt="heart icon" /></li>
+        <li><img src={arrowleftIcon} alt="arrow left icon" /></li>
+        <li><img src={settingsIcon} alt="settings icon" /></li>
+        <li><img src={as} alt="initials icon" /></li>
       </ul>
     </div>
   );
